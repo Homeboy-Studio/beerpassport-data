@@ -1,0 +1,57 @@
+{
+ "v": 1,
+ "built": 1792178668,
+ "tag": "data-2026.10.16",
+ "count": 10798,
+ "license": "ODbL-1.0",
+ "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+ "contents_license": "DbCL-1.0",
+ "contents_license_url": "https://opendatacommons.org/licenses/dbcl/1-0/",
+ "attribution": "Contains information from Open Food Facts (https://world.openfoodfacts.org), which is made available here under the Open Database License (ODbL) v1.0. Individual contents are under the Database Contents License (DbCL) v1.0. Countries of origin completed with Wikidata (CC0).",
+ "files": {
+  "catalog.json.gz": {
+   "sha256": "a268fad2db633057445b2d2d2f69a150e9432cd9171257fc2bea886c4d4a7298",
+   "bytes": 239887
+  },
+  "reference/map_seed.json": {
+   "sha256": "1816dccd3477ae264e0393f73ad3e19f6af2a587f17132e6cca15cca66acb7b5",
+   "bytes": 46748
+  },
+  "reference/belgian_list.json": {
+   "sha256": "bb912e700bc3a207bf06197f998f3be06c4c9c3fa30f137914f89af38cb2c067",
+   "bytes": 15762
+  },
+  "reference/beers.json": {
+   "sha256": "7d106cefe36830b17f76824153c0f83270f1d2b7f893840eea1b058e637725f8",
+   "bytes": 54608
+  },
+  "by-code/index.json": {
+   "sha256": "ee12b7f7a6662bac0b8df4a6e3407100b1ec129eb3634748e7fc135f7aafd201",
+   "bytes": 43955
+  }
+ },
+ "by_code": {
+  "path": "by-code/{prefix}.json",
+  "prefix_digits": 3
+ },
+ "deltas": [
+  {
+   "from": 1791803471,
+   "to": 1791804148,
+   "path": "deltas/1791804148.json.gz",
+   "count": 0,
+   "removed": 0,
+   "sha256": "7b0d8fc7f41e1b6e2f18dae8918da584a6e74772d3d8d22bc85dc16c4f2e967f",
+   "bytes": 95
+  },
+  {
+   "from": 1791804148,
+   "to": 1792178668,
+   "path": "deltas/1792178668.json.gz",
+   "count": 0,
+   "removed": 0,
+   "sha256": "a265878dd7099261aa159e9382a7f53de8354467c0a94befdd52ef871f48013b",
+   "bytes": 98
+  }
+ ]
+}
