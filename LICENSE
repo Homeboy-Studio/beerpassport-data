@@ -10,7 +10,9 @@ Attribution
 
 This database contains information from Open Food Facts (https://world.openfoodfacts.org), which is made available
 under the Open Database License (ODbL) v1.0. Countries of origin are completed with Wikidata (CC0). The reference
-beers marked "web:" are a selection checked by hand.
+beers marked "web:" are a selection checked by hand. Country and region codes follow Natural Earth (public domain).
+
+The database is curated by Homeboy Studio.
 
 If you use, adapt or redistribute this database, keep this notice, credit the sources above, and share any adapted
 database under the ODbL v1.0 (see sections 4.2–4.4 of the licence).

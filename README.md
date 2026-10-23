@@ -3,9 +3,28 @@
 An open database of beers with a barcode, their country of origin and, where known, their region. It powers the
 Beer Passport app and anyone can reuse it under the terms below.
 
+**Curated by Homeboy Studio.**
+
 - About 13 000 beers, updated weekly. Every update is listed in [CHANGELOG.md](CHANGELOG.md).
 - No personal data: nothing that users of the app record ever reaches this repository.
 - Licence: **ODbL v1.0** for the database and **DbCL v1.0** for its contents. Licence and attribution are in [LICENSE](LICENSE).
+
+## Sources
+
+Most of the data comes from [Open Food Facts](https://world.openfoodfacts.org), the collaborative database of food
+products. Homeboy Studio selects the beers, cleans them and completes them:
+
+- **Beers with a barcode** (`catalog.json.gz`, `by-code/`): every record starts as an Open Food Facts product in its
+  beer categories. We keep only real barcodes, leave out what is not beer, keep names stable and
+  never drop a beer because it changed at the source.
+- **Country of origin** (October 2026): about 10 % comes from the product itself, 27 % is matched by name or brand with
+  [Wikidata](https://www.wikidata.org) (CC0) and with other beers of the same brand, and 61 % is only a guess from the
+  barcode prefix (`oq` tells which, see below). About 3 % has no country.
+- **Reference beers** (`reference/`): well-known beers chosen by us, from Wikidata (ids `wd:`) and from a selection
+  checked by hand against public sources (ids `web:`).
+- **Country and region codes**: [Natural Earth](https://www.naturalearthdata.com) (public domain).
+
+The [CHANGELOG](CHANGELOG.md) lists every update.
 
 ## Files
 
