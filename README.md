@@ -3,7 +3,7 @@
 An open database of beers with a barcode, their country of origin and, where known, their region. It powers the
 Beer Passport app and anyone can reuse it under the terms below.
 
-- About 10 800 beers, updated weekly.
+- About 13 000 beers, updated weekly. Every update is listed in [CHANGELOG.md](CHANGELOG.md).
 - No personal data: nothing that users of the app record ever reaches this repository.
 - Licence: **ODbL v1.0** for the database and **DbCL v1.0** for its contents. Licence and attribution are in [LICENSE](LICENSE).
 
@@ -13,6 +13,7 @@ Everything lives under `v1/`. Its format never changes: a breaking change would 
 
 | Path | What it is |
 |---|---|
+| `CHANGELOG.md` | One entry per published version: beers new, updated and removed, new beers by country, reference files changed. |
 | `v1/manifest.json` | Current version: `built` (Unix time), `tag`, `count`, licence, attribution, sha256 and size of the main files, list of deltas. Small: read it first. |
 | `v1/catalog.json.gz` | The whole database, gzip-compressed JSON. |
 | `v1/deltas/<built>.json.gz` | Changes since the previous version: `items` (new or changed records) and `removed` (barcodes). |
