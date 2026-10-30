@@ -1,7 +1,7 @@
 {
  "v": 1,
- "built": 1793201784,
- "tag": "data-2026.10.28-2",
+ "built": 1793385590,
+ "tag": "data-2026.10.30",
  "count": 13108,
  "license": "ODbL-1.0",
  "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
@@ -10,8 +10,8 @@
  "attribution": "Contains information from Open Food Facts (https://world.openfoodfacts.org), which is made available here under the Open Database License (ODbL) v1.0. Individual contents are under the Database Contents License (DbCL) v1.0. Countries of origin completed with Wikidata (CC0).",
  "files": {
   "catalog.json.gz": {
-   "sha256": "b7b063430e4a00c1e70e20365fe366b41e3eca68804a19c199843f7d461d04fa",
-   "bytes": 291512
+   "sha256": "3c9d1db4a569b933db117f3fc540587028f784bbec2950be7f04bbfcfc743edf",
+   "bytes": 291511
   },
   "reference/map_seed.json": {
    "sha256": "1816dccd3477ae264e0393f73ad3e19f6af2a587f17132e6cca15cca66acb7b5",
@@ -22,23 +22,51 @@
    "bytes": 15762
   },
   "reference/beers.json": {
-   "sha256": "7d106cefe36830b17f76824153c0f83270f1d2b7f893840eea1b058e637725f8",
-   "bytes": 54608
+   "sha256": "6c1c26b631c72d982db87b90f19fe67dc6cc0bc144a90f75a0921ac2b8850a0e",
+   "bytes": 62208
   },
   "reference/lists/index.json": {
-   "sha256": "c1746a16d3f4692bf6f71fbd64e7480bc02d90c824f8625c2b4a0028319cce95",
-   "bytes": 3821
+   "sha256": "bdf862e80379e8697cc19fe77d2acdf9bf88cc3d2d4001dfffea2ff78e7bbdd5",
+   "bytes": 15502
+  },
+  "reference/lists/bamberg.json": {
+   "sha256": "97bd614b37c73b2c4746d5de63598f66a3c87b223bb43cc6072885712d07d0e4",
+   "bytes": 2628
   },
   "reference/lists/belgian_abbeys.json": {
    "sha256": "3ca676229a7885344d2b5491d2fb4690d01c5a11eafe4df0bdb4755073f27fa7",
    "bytes": 12876
+  },
+  "reference/lists/czech_pilsners.json": {
+   "sha256": "f2962babe00f50578de64a1e7bd0ecd5f1df02f3f4488fc8a70f4f6b54ff4901",
+   "bytes": 2944
+  },
+  "reference/lists/duesseldorf_alt.json": {
+   "sha256": "20d25ee2ca5ded3d43a11a1999ddde8985d7d70e59ca3d56ffa2ccb00a6f67aa",
+   "bytes": 1121
+  },
+  "reference/lists/horal_lambic.json": {
+   "sha256": "53bc8db190b66bae1a6080b6c4924ba0f0d544f75c3f709486c43ac602dbd38a",
+   "bytes": 6395
+  },
+  "reference/lists/irish_stouts.json": {
+   "sha256": "4b8a0ee3fff449de78c2816d28bf50f72e523c824097c02ae8efd48420660a41",
+   "bytes": 1787
+  },
+  "reference/lists/koelsch.json": {
+   "sha256": "2d0fcb2da24f45c8535491f12cd6c420f6ba8c4697ac8b764902129063fe257d",
+   "bytes": 2443
+  },
+  "reference/lists/oktoberfest.json": {
+   "sha256": "12086233bd1fe61df5727913d8da83d22866451a6a08e0c40af8d93ebc5fb86c",
+   "bytes": 4119
   },
   "reference/lists/trappists.json": {
    "sha256": "6c2fe68f046ad7b1ffc33b60f1c7279c9dc256c385b12b460edfed27d164073f",
    "bytes": 5114
   },
   "by-code/index.json": {
-   "sha256": "bd65f06f81f53bbd5e37ad7fb612feb48bb029f3e87c4bcd4eb87c873021a40b",
+   "sha256": "ae7c87c2c03aa3637063fc64f4b3b7764cc789db2d8be4a23ce4280db1d3c1f4",
    "bytes": 48011
   }
  },
@@ -99,6 +127,15 @@
    "count": 0,
    "removed": 0,
    "sha256": "d14642bf99c150fef3b44a890e56ef98208ac4df0c0dd919fc5f69cacdd64074",
+   "bytes": 98
+  },
+  {
+   "from": 1793201784,
+   "to": 1793385590,
+   "path": "deltas/1793385590.json.gz",
+   "count": 0,
+   "removed": 0,
+   "sha256": "29c3751f9ca0fbf504bb38c5438baf60beeefff625daa023e30d481847a8e21e",
    "bytes": 98
   }
  ]
