@@ -4,6 +4,11 @@ Every published version of the database, newest first. Each entry is written by 
 "New" are beers that were not in the previous version; "updated" changed a name, brand, origin, region or modification
 date. Beers are never removed because of the source: a removal is always a reviewed exclusion (not a beer).
 
+## data-2026.10.30-6 (2026-10-30)
+
+- 13 108 beers: 0 new, 0 updated, 0 removed.
+- Reference files changed: `reference/lists/index.json`, `reference/lists/img/bamberg.webp`, `reference/lists/img/belgian_abbeys.webp`, `reference/lists/img/colorado.webp`, `reference/lists/img/czech_pilsners.webp`, `reference/lists/img/duesseldorf_alt.webp`, `reference/lists/img/horal_lambic.webp`, `reference/lists/img/irish_stouts.webp`, `reference/lists/img/japan_classics.webp`, `reference/lists/img/koelsch.webp`, `reference/lists/img/mexican_classics.webp`, `reference/lists/img/oktoberfest.webp`, `reference/lists/img/san_diego_ipa.webp`, `reference/lists/img/trappists.webp`, `reference/lists/img/us_craft_pioneers.webp`, `reference/lists/img/us_prohibition.webp`, `reference/lists/img/vermont_hazy.webp`.
+
 ## data-2026.10.30-5 (2026-10-30)
 
 - 13 108 beers: 0 new, 0 updated, 0 removed.

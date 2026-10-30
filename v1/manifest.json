@@ -1,7 +1,7 @@
 {
  "v": 1,
- "built": 1793398428,
- "tag": "data-2026.10.30-5",
+ "built": 1793399257,
+ "tag": "data-2026.10.30-6",
  "count": 13108,
  "license": "ODbL-1.0",
  "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
@@ -10,8 +10,8 @@
  "attribution": "Contains information from Open Food Facts (https://world.openfoodfacts.org), which is made available here under the Open Database License (ODbL) v1.0. Individual contents are under the Database Contents License (DbCL) v1.0. Countries of origin completed with Wikidata (CC0).",
  "files": {
   "catalog.json.gz": {
-   "sha256": "0b5ad217b3160c1a3e35e39551aa0c030ed8b7d513a1ab3497790b3f3d8fff9e",
-   "bytes": 291511
+   "sha256": "9a954bf296353861d502462d4c71b7c1fbf6de8291b312c3679cd1c8ce468fb4",
+   "bytes": 291512
   },
   "reference/map_seed.json": {
    "sha256": "1816dccd3477ae264e0393f73ad3e19f6af2a587f17132e6cca15cca66acb7b5",
@@ -26,8 +26,8 @@
    "bytes": 68666
   },
   "reference/lists/index.json": {
-   "sha256": "2957e59108b1b5b6d7612cf6ef58a38593a654ff42003811780e2bcd2232b8dc",
-   "bytes": 100260
+   "sha256": "f1fde0f34044b71a76c7800b33640f5a4d05dda210a274c6efb3444818ff76ed",
+   "bytes": 100431
   },
   "reference/lists/trappists.json": {
    "sha256": "6c2fe68f046ad7b1ffc33b60f1c7279c9dc256c385b12b460edfed27d164073f",
@@ -93,8 +93,72 @@
    "sha256": "23335094045c1912e000169d3e889d9f2ea7e9b83fd66baffd0c739526069faf",
    "bytes": 1336
   },
+  "reference/lists/img/bamberg.webp": {
+   "sha256": "6f5904931480c7f33cd46a14e900848223000f36c50a5dd88a9c33989a73baab",
+   "bytes": 63156
+  },
+  "reference/lists/img/belgian_abbeys.webp": {
+   "sha256": "d676b05aee4ae893a4f4bb4fbb86aaaf7c8e40e0917c2c7876f5ec7924a340de",
+   "bytes": 96914
+  },
+  "reference/lists/img/colorado.webp": {
+   "sha256": "2643b4709f3027c3313c1369156177e50d74e44d0b2186cafdde0d80ea9f9623",
+   "bytes": 107752
+  },
+  "reference/lists/img/czech_pilsners.webp": {
+   "sha256": "de9de0d61bbf3edb748b40959435809039967347f6dc3792e0654d6e33c288cf",
+   "bytes": 129278
+  },
+  "reference/lists/img/duesseldorf_alt.webp": {
+   "sha256": "595ebba0d0b157b12a1d8ee9081c08fc168bcf93aa5e63eb6ae5ba4b156faa55",
+   "bytes": 72594
+  },
+  "reference/lists/img/horal_lambic.webp": {
+   "sha256": "e31e7543f9f01e2d4a450f0b403b7b04a83382e498dadc7ea6a08dffa914b65a",
+   "bytes": 71386
+  },
+  "reference/lists/img/irish_stouts.webp": {
+   "sha256": "bbfc37367d8e57571f35680ffe348ac703221cd16f2a96418df085b956fa461f",
+   "bytes": 35268
+  },
+  "reference/lists/img/japan_classics.webp": {
+   "sha256": "f4bdff258fac247384e676ccb13fa86356c3548980f34fdaeeed0bfd36982d33",
+   "bytes": 110588
+  },
+  "reference/lists/img/koelsch.webp": {
+   "sha256": "c8524fcd1c25fd1a901330433914017d649be153a15fce84e28ad2a77d8ccaa9",
+   "bytes": 115322
+  },
+  "reference/lists/img/mexican_classics.webp": {
+   "sha256": "68024efe49454578f9ecaeca88a4b5e2604502fe4042b75e5c197ab915e13fb8",
+   "bytes": 83930
+  },
+  "reference/lists/img/oktoberfest.webp": {
+   "sha256": "2b5597d4fdc39c3001c3d86558d168278e1f29ae137f2e26346435a2de24d23f",
+   "bytes": 150368
+  },
+  "reference/lists/img/san_diego_ipa.webp": {
+   "sha256": "4493752da8bb3953a01f753dd0f373b56f5ed410f0a20a50ab864fed33f26a85",
+   "bytes": 158206
+  },
+  "reference/lists/img/trappists.webp": {
+   "sha256": "0c033637f0068b17ded1bc76cc441ddd1eba29907354ff3d1d7dce2e2dd2cf24",
+   "bytes": 81416
+  },
+  "reference/lists/img/us_craft_pioneers.webp": {
+   "sha256": "d3738a087c3de521e20e2becebfd831fc900a8eda7beaf06edd8fa2c32f2ee18",
+   "bytes": 64856
+  },
+  "reference/lists/img/us_prohibition.webp": {
+   "sha256": "0ab69f5e6e5a67f6348017014f98856d56ff3391cb001099d19f837c167e39b8",
+   "bytes": 98344
+  },
+  "reference/lists/img/vermont_hazy.webp": {
+   "sha256": "3981c24c2f45cc7bf87c43e62dccc3c1eb1c0daf30753bd656f281ecd1a26ef8",
+   "bytes": 101848
+  },
   "by-code/index.json": {
-   "sha256": "c28e09c3937307defa061abd58fa52736e7fc858a3869c4ad45c91fd5176dee0",
+   "sha256": "7c6ac1c898b6ed61b35c4d8e75f507c5b8f5c3ccfb7ad553c8e6ee4ae65f3567",
    "bytes": 48011
   }
  },
@@ -201,6 +265,15 @@
    "removed": 0,
    "sha256": "cd39158bd95ab7092779d044ba67dfc9531a98c5338d03dc07331c21b5e022eb",
    "bytes": 95
+  },
+  {
+   "from": 1793398428,
+   "to": 1793399257,
+   "path": "deltas/1793399257.json.gz",
+   "count": 0,
+   "removed": 0,
+   "sha256": "f6081969af8714054e1ed6fcf3076aff9bc3158a387994c70b576974590aea0d",
+   "bytes": 96
   }
  ]
 }
