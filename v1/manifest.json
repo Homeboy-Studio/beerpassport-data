@@ -1,7 +1,7 @@
 {
  "v": 1,
- "built": 1793391112,
- "tag": "data-2026.10.30-3",
+ "built": 1793398054,
+ "tag": "data-2026.10.30-4",
  "count": 13108,
  "license": "ODbL-1.0",
  "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
@@ -10,7 +10,7 @@
  "attribution": "Contains information from Open Food Facts (https://world.openfoodfacts.org), which is made available here under the Open Database License (ODbL) v1.0. Individual contents are under the Database Contents License (DbCL) v1.0. Countries of origin completed with Wikidata (CC0).",
  "files": {
   "catalog.json.gz": {
-   "sha256": "d5e7dbf57b2c2703f1e1c2957eacb5e8946a44d0f578e2c490fec246eefcb3fc",
+   "sha256": "efcd9967aa813adc323ee524558df6fa3655aca9eb7af15e9a087e095ac51f19",
    "bytes": 291511
   },
   "reference/map_seed.json": {
@@ -22,51 +22,75 @@
    "bytes": 15762
   },
   "reference/beers.json": {
-   "sha256": "6c1c26b631c72d982db87b90f19fe67dc6cc0bc144a90f75a0921ac2b8850a0e",
-   "bytes": 62208
+   "sha256": "22197a6dff587b36028cc6d5cfbddac03d68fa255d39dd3bd72f9499f2ca9356",
+   "bytes": 68440
   },
   "reference/lists/index.json": {
-   "sha256": "e3b07699366869cddbf9d85ff7329f0117fa67e4f2150a8e2aba5aa979e65f4c",
-   "bytes": 55106
-  },
-  "reference/lists/bamberg.json": {
-   "sha256": "97bd614b37c73b2c4746d5de63598f66a3c87b223bb43cc6072885712d07d0e4",
-   "bytes": 2628
-  },
-  "reference/lists/belgian_abbeys.json": {
-   "sha256": "3ca676229a7885344d2b5491d2fb4690d01c5a11eafe4df0bdb4755073f27fa7",
-   "bytes": 12876
-  },
-  "reference/lists/czech_pilsners.json": {
-   "sha256": "f2962babe00f50578de64a1e7bd0ecd5f1df02f3f4488fc8a70f4f6b54ff4901",
-   "bytes": 2944
-  },
-  "reference/lists/duesseldorf_alt.json": {
-   "sha256": "20d25ee2ca5ded3d43a11a1999ddde8985d7d70e59ca3d56ffa2ccb00a6f67aa",
-   "bytes": 1121
-  },
-  "reference/lists/horal_lambic.json": {
-   "sha256": "53bc8db190b66bae1a6080b6c4924ba0f0d544f75c3f709486c43ac602dbd38a",
-   "bytes": 6395
-  },
-  "reference/lists/irish_stouts.json": {
-   "sha256": "4b8a0ee3fff449de78c2816d28bf50f72e523c824097c02ae8efd48420660a41",
-   "bytes": 1787
-  },
-  "reference/lists/koelsch.json": {
-   "sha256": "2d0fcb2da24f45c8535491f12cd6c420f6ba8c4697ac8b764902129063fe257d",
-   "bytes": 2443
-  },
-  "reference/lists/oktoberfest.json": {
-   "sha256": "12086233bd1fe61df5727913d8da83d22866451a6a08e0c40af8d93ebc5fb86c",
-   "bytes": 4119
+   "sha256": "1ca134d59debfd327ea224aebd629214148a1b8a43d53cd6d60b45111f09d2f5",
+   "bytes": 94319
   },
   "reference/lists/trappists.json": {
    "sha256": "6c2fe68f046ad7b1ffc33b60f1c7279c9dc256c385b12b460edfed27d164073f",
    "bytes": 5114
   },
+  "reference/lists/belgian_abbeys.json": {
+   "sha256": "3ca676229a7885344d2b5491d2fb4690d01c5a11eafe4df0bdb4755073f27fa7",
+   "bytes": 12876
+  },
+  "reference/lists/horal_lambic.json": {
+   "sha256": "53bc8db190b66bae1a6080b6c4924ba0f0d544f75c3f709486c43ac602dbd38a",
+   "bytes": 6395
+  },
+  "reference/lists/oktoberfest.json": {
+   "sha256": "12086233bd1fe61df5727913d8da83d22866451a6a08e0c40af8d93ebc5fb86c",
+   "bytes": 4119
+  },
+  "reference/lists/bamberg.json": {
+   "sha256": "97bd614b37c73b2c4746d5de63598f66a3c87b223bb43cc6072885712d07d0e4",
+   "bytes": 2628
+  },
+  "reference/lists/koelsch.json": {
+   "sha256": "2d0fcb2da24f45c8535491f12cd6c420f6ba8c4697ac8b764902129063fe257d",
+   "bytes": 2443
+  },
+  "reference/lists/duesseldorf_alt.json": {
+   "sha256": "20d25ee2ca5ded3d43a11a1999ddde8985d7d70e59ca3d56ffa2ccb00a6f67aa",
+   "bytes": 1121
+  },
+  "reference/lists/czech_pilsners.json": {
+   "sha256": "f2962babe00f50578de64a1e7bd0ecd5f1df02f3f4488fc8a70f4f6b54ff4901",
+   "bytes": 2944
+  },
+  "reference/lists/irish_stouts.json": {
+   "sha256": "4b8a0ee3fff449de78c2816d28bf50f72e523c824097c02ae8efd48420660a41",
+   "bytes": 1787
+  },
+  "reference/lists/us_prohibition.json": {
+   "sha256": "6ec1e94507d2b4457abf0b4a8e94088bf879639fea53791f039149042b1423f6",
+   "bytes": 2260
+  },
+  "reference/lists/us_craft_pioneers.json": {
+   "sha256": "bd37075e838f9019bc2730c03382f653986f013c8909176ed96d87bb795aa968",
+   "bytes": 3491
+  },
+  "reference/lists/vermont_hazy.json": {
+   "sha256": "fd4def0c9c907e1841475209b6591d9e4d19b66ac35d75e88e2dce1688a1419f",
+   "bytes": 1628
+  },
+  "reference/lists/san_diego_ipa.json": {
+   "sha256": "480f0cf3dbb212c75bb787b7144698878c97cb565913595815cc95c3e5ebc233",
+   "bytes": 2155
+  },
+  "reference/lists/colorado.json": {
+   "sha256": "8512a644c1ddaa8745e8e68d61cb7343bc48b3350e462a975150b647a119d3d1",
+   "bytes": 2015
+  },
+  "reference/lists/mexican_classics.json": {
+   "sha256": "c8d2e3c3242f9fa58ccbf3051cdda4809d79c7f03e7ebf5449a3d1d275d92700",
+   "bytes": 1979
+  },
   "by-code/index.json": {
-   "sha256": "f6a9d269c6665e4f9d506d1209248bdc50faffd5d07d29541eab8db7a6015920",
+   "sha256": "31049dead25221764f2cd3b7413355b337fa802d5ac1b9418de0e43dd9cab4f3",
    "bytes": 48011
   }
  },
@@ -155,6 +179,15 @@
    "removed": 0,
    "sha256": "c1e3c0cf187e82884bef4c0a472827effddf30e3271f37d7aa4014bb6b28edc1",
    "bytes": 97
+  },
+  {
+   "from": 1793391112,
+   "to": 1793398054,
+   "path": "deltas/1793398054.json.gz",
+   "count": 0,
+   "removed": 0,
+   "sha256": "a12906c3637aabc71bd71ce499d52a51e0302db6e81b9155f5459dc6d0261a6a",
+   "bytes": 96
   }
  ]
 }

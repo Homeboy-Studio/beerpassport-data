@@ -4,6 +4,11 @@ Every published version of the database, newest first. Each entry is written by 
 "New" are beers that were not in the previous version; "updated" changed a name, brand, origin, region or modification
 date. Beers are never removed because of the source: a removal is always a reviewed exclusion (not a beer).
 
+## data-2026.10.30-4 (2026-10-30)
+
+- 13 108 beers: 0 new, 0 updated, 0 removed.
+- Reference files changed: `reference/beers.json`, `reference/lists/index.json`, `reference/lists/colorado.json`, `reference/lists/mexican_classics.json`, `reference/lists/san_diego_ipa.json`, `reference/lists/us_craft_pioneers.json`, `reference/lists/us_prohibition.json`, `reference/lists/vermont_hazy.json`.
+
 ## data-2026.10.30-3 (2026-10-30)
 
 - 13 108 beers: 0 new, 0 updated, 0 removed.
