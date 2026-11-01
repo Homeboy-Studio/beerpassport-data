@@ -4,6 +4,12 @@ Every published version of the database, newest first. Each entry is written by 
 "New" are beers that were not in the previous version; "updated" changed a name, brand, origin, region or modification
 date. Beers are never removed because of the source: a removal is always a reviewed exclusion (not a beer).
 
+## data-2026.11.01-3 (2026-11-01)
+
+- 9 782 beers: 153 new, 5 043 updated, 0 removed.
+- 1 569 codes joined to the same beer under another code (one beer, several codes).
+- New by country: FRA 40, DEU 24, ESP 18, BEL 17, GBR 8, NLD 8, ITA 7, USA 3, BGR 3, CHE 3, ….
+
 ## data-2026.11.01-2 (2026-11-01)
 
 - 11 198 beers: 0 new, 6 924 updated, 0 removed.

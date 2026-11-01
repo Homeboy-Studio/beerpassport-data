@@ -1,8 +1,8 @@
 {
  "v": 1,
- "built": 1793558831,
- "tag": "data-2026.11.01-2",
- "count": 11198,
+ "built": 1793571838,
+ "tag": "data-2026.11.01-3",
+ "count": 9782,
  "license": "ODbL-1.0",
  "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
  "contents_license": "DbCL-1.0",
@@ -10,8 +10,8 @@
  "attribution": "Contains information from Open Food Facts (https://world.openfoodfacts.org), which is made available here under the Open Database License (ODbL) v1.0. Individual contents are under the Database Contents License (DbCL) v1.0. Countries of origin completed with Wikidata (CC0).",
  "files": {
   "catalog.json.gz": {
-   "sha256": "905a643a55c8506bd7b5ae650266565ff8e10e4bb3ab62ea336113ea6761cec0",
-   "bytes": 260918
+   "sha256": "8282dcf691b6c94370349b330c3ea544ee2c537ba13f9b0b22d794f5338540c5",
+   "bytes": 250424
   },
   "reference/map_seed.json": {
    "sha256": "1816dccd3477ae264e0393f73ad3e19f6af2a587f17132e6cca15cca66acb7b5",
@@ -158,8 +158,8 @@
    "bytes": 101848
   },
   "by-code/index.json": {
-   "sha256": "7d89ffe16012d8ae57dce4b056c1e71d023b100a73d88dd455cebc80b0a9f573",
-   "bytes": 48013
+   "sha256": "6261a36afbd98fccb63887178ca1792accd69484373018176d24cd295950f26c",
+   "bytes": 48036
   }
  },
  "by_code": {
@@ -292,6 +292,15 @@
    "removed": 0,
    "sha256": "34fa578ca8f0787c7f15158f2c64126aa9a4b719c4f4919aac28f02b51c72e0d",
    "bytes": 172669
+  },
+  {
+   "from": 1793558831,
+   "to": 1793571838,
+   "path": "deltas/1793571838.json.gz",
+   "count": 5196,
+   "removed": 0,
+   "sha256": "757fbd9c3256f16f70a0e414885a4255d99ccdf75cf17d62c1a55b7ab53043cf",
+   "bytes": 150369
   }
  ]
 }
