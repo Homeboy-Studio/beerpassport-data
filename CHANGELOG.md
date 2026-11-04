@@ -4,6 +4,11 @@ Every published version of the database, newest first. Each entry is written by 
 "New" are beers that were not in the previous version; "updated" changed a name, brand, origin, region or modification
 date. Beers are never removed because of the source: a removal is always a reviewed exclusion (not a beer).
 
+## data-2026.11.04 (2026-11-04)
+
+- 9 782 beers: 0 new, 0 updated, 0 removed.
+- Reference files changed: `reference/lists/index.json`.
+
 ## data-2026.11.02 (2026-11-02)
 
 - 9 782 beers: 0 new, 0 updated, 0 removed.
